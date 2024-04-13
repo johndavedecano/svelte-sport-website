@@ -1,6 +1,7 @@
 <script>
   import Carousel from "$lib/components/carousel.svelte";
   import Categories from "$lib/components/categories.svelte";
+  import Footer from "$lib/components/footer.svelte";
   import Header from "$lib/components/header.svelte";
   import Products from "$lib/components/products.svelte";
   import Selections from "$lib/components/selections.svelte";
@@ -47,18 +48,4 @@
   <Carousel />
 </div>
 
-<footer class="footer">
-  <div class="footer-bar"></div>
-  <div class="container"></div>
-</footer>
-
-<style>
-  .footer {
-    @apply w-full;
-    min-height: 600px;
-    background-color: #eff1f3;
-  }
-  .footer-bar {
-    @apply py-6 w-full bg-lochmara-600 text-white;
-  }
-</style>
+<Footer />
