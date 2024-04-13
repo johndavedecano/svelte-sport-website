@@ -23,6 +23,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-icons": "^2.1.0"
+		"svelte-carousel": "^1.0.25",
+		"svelte-icons": "^2.1.0",
+		"svelte-star-rating": "^2.0.1"
 	}
 }
