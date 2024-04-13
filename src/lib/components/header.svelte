@@ -19,6 +19,10 @@
       <Icon icon={MdSearch} />
     </button>
   </form>
+  <a href="/" class="menu menu-search">
+    <Icon height={24} width={24} icon={MdSearch} />
+    <span>SEARCH</span>
+  </a>
   <a href="/" class="menu">
     <Icon height={24} width={24} icon={MdAccountCircle} />
     <span>ACCOUNT</span>
@@ -42,7 +46,7 @@
   }
 
   .logo {
-    @apply px-4 bg-lochmara-600 text-2xl flex items-center font-bold uppercase text-white;
+    @apply px-4 bg-lochmara-600 text-2xl hidden md:flex items-center font-bold uppercase text-white;
     height: 40px;
   }
 
@@ -55,6 +59,10 @@
   .menu-cart {
     @apply text-xs uppercase flex flex-col items-center justify-center bg-lemon-400 px-8 text-center;
     height: 100%;
+  }
+
+  .menu-search {
+    @apply flex md:hidden;
   }
 
   .menu-cart-content {

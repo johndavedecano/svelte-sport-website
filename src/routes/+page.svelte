@@ -11,7 +11,7 @@
 
 <Header />
 
-<div class="container pt-20">
+<div class="container pt-24">
   <Slider />
 </div>
 
