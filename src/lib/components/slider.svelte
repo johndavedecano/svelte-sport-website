@@ -1,6 +1,7 @@
 <script>
   import Carousel from "svelte-carousel";
   import { browser } from "$app/environment";
+  import { getRandomBgImage } from "$lib/random-image";
 
   let carousel; // for calling methods of the carousel instance
 
@@ -11,7 +12,7 @@
   {#if browser}
     <Carousel bind:this={carousel} autoplay autoplayDuration={2000}>
       {#each slides as item}
-        <div class="slider" style="background-image: url('/slide.jpg');"></div>
+        <div class="slider" style={getRandomBgImage(1024, 723)}></div>
       {/each}
     </Carousel>
   {/if}

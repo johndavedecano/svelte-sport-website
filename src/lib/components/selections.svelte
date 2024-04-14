@@ -1,32 +1,36 @@
+<script>
+  import { getRandomBgImage } from "$lib/random-image";
+</script>
+
 <div class="types-title">Onze selectie</div>
 <div class="types">
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Kamperen </a>
   </div>
 
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Fietsen </a>
   </div>
 
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Zwemmen </a>
   </div>
 
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Hardloopkleding </a>
   </div>
 
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Fitnesskleding </a>
   </div>
 
   <div class="type">
-    <div class="type-img" style="background-image: url('/sport.jpg');"></div>
+    <div class="type-img" style={getRandomBgImage()}></div>
     <a href="/"> Sportvoeding </a>
   </div>
 </div>

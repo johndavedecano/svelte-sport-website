@@ -1,4 +1,5 @@
 <script>
+  import { getRandomBgImage } from "$lib/random-image";
   import StarRating from "svelte-star-rating";
 
   const rating = 3.35;
@@ -12,7 +13,7 @@
 </script>
 
 <div class="item">
-  <div class="item-img" style="background-image: url('/sport.jpg');">
+  <div class="item-img" style={getRandomBgImage()}>
     <div class="item-new">Niuew</div>
     <div class="item-discount">Korting</div>
   </div>

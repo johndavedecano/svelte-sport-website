@@ -4,7 +4,6 @@
   import Carousel from "svelte-carousel";
 
   import Product from "./product.svelte";
-  import { onDestroy, onMount } from "svelte";
 
   let carousel; // for calling methods of the carousel instance
 

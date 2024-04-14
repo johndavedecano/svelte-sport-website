@@ -1,4 +1,8 @@
-<div class="cover" style="background-image: url('/sport.jpg');">
+<script>
+  import { getRandomBgImage } from "$lib/random-image";
+</script>
+
+<div class="cover" style={getRandomBgImage()}>
   <div class="cover-title">Work Hard,<br /> Play Hard!</div>
 </div>
 
