@@ -4,10 +4,17 @@
   import MdAccountCircle from "svelte-icons/md/MdAccountCircle.svelte";
   import MdHelpOutline from "svelte-icons/md/MdHelpOutline.svelte";
   import MdAddShoppingCart from "svelte-icons/md/MdAddShoppingCart.svelte";
+  import { createEventDispatcher } from "svelte";
+
+  const dispatch = createEventDispatcher();
 </script>
 
 <header class="page-header">
-  <a href="/" class="menu">
+  <a
+    href="/"
+    class="menu"
+    on:click|preventDefault={() => dispatch("sidebar-open")}
+  >
     <Icon height={24} width={24} />
     <span>MENU</span>
   </a>
@@ -41,7 +48,7 @@
 
 <style>
   .page-header {
-    @apply shadow-xl w-full fixed top-0 right-0 left-0 flex items-center pl-4 gap-4 bg-white z-50;
+    @apply shadow-xl w-full fixed top-0 right-0 left-0 flex items-center pl-4 gap-4 bg-white z-30;
     height: 66px;
   }
 
