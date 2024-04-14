@@ -30,7 +30,8 @@
 
 <div class="container">
   <div class="section">
-    <WordHard />
+    <WordHard>I just wanna do the work <br /> and get on with my life.</WordHard
+    >
     <Products />
   </div>
 </div>
@@ -38,13 +39,15 @@
 <div class="container">
   <div class="section">
     <Products />
-    <WordHard />
+    <WordHard
+      >This society is driven by fear.<br /> Do not forget to chill.</WordHard
+    >
   </div>
 </div>
 
 <div class="container">
   <div class="section">
-    <WordHard />
+    <WordHard>If I do not make it,<br /> I am not less of a person.</WordHard>
     <Products />
   </div>
 </div>

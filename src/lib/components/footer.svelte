@@ -1,5 +1,9 @@
 <footer class="footer">
-  <div class="footer-bar"></div>
+  <div class="footer-bar">
+    <div class="text-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+  </div>
   <div class="container">
     <div class="footer-list">
       <ul>
@@ -49,7 +53,7 @@
   }
 
   .footer-list {
-    @apply flex gap-8 w-full pt-8;
+    @apply grid grid-cols-2 lg:grid-cols-4 gap-8 w-full pt-8;
   }
 
   .footer-list ul {

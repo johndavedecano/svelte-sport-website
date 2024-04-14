@@ -2,8 +2,10 @@
   import { getRandomBgImage } from "$lib/random-image";
 </script>
 
-<div class="cover" style={getRandomBgImage()}>
-  <div class="cover-title">Work Hard,<br /> Play Hard!</div>
+<div class="cover" style={getRandomBgImage(400, 800)}>
+  <div class="cover-title">
+    <slot />
+  </div>
 </div>
 
 <style>
@@ -13,7 +15,7 @@
   }
 
   .cover-title {
-    @apply text-white text-4xl font-bold z-20;
+    @apply text-white text-3xl font-bold z-20 text-center px-8;
   }
 
   .cover::after {
