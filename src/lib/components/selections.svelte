@@ -53,7 +53,7 @@
   }
 
   .type-img {
-    @apply bg-cover bg-no-repeat w-full py-32 rounded-lg overflow-hidden;
+    @apply bg-cover bg-no-repeat w-full py-32 rounded-lg overflow-hidden bg-slate-200;
   }
 
   .type-item {
